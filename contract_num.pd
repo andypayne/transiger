@@ -1,11 +1,11 @@
 #N canvas 1208 105 422 626 12;
 #X obj 92 304 t b b;
-#X msg 124 361 2.24858;
+#X msg 124 361 -48.0056;
 #X msg 124 332 set 0;
 #X msg 144 422 set \$1;
 #X obj 124 482 * 1;
 #X obj 150 166 hsl 100 15 0.1 10 1 1 empty empty amt -2 -8 0 10 #fcfcfc
-#000000 #000000 6700 1;
+#000000 #000000 0 1;
 #X floatatom 260 164 5 0 0 0 - - -, f 5;
 #X obj 124 514 outlet;
 #X obj 92 64 inlet;
@@ -13,8 +13,8 @@
 #X obj 212 64 inlet;
 #X obj 272 64 inlet;
 #X floatatom 150 204 5 0 0 2 val - -, f 5;
-#X obj 150 134 hsl 100 15 0.1 10 1 1 empty empty incr -2 -8 0 10 #fcfcfc
-#000000 #000000 1350 1;
+#X obj 150 134 hsl 100 15 0.1 10 1 1 empty empty decr -2 -8 0 10 #fcfcfc
+#000000 #000000 7312 1;
 #X floatatom 260 132 5 0 0 0 - - -, f 5;
 #X obj 144 391 - 2;
 #X connect 0 0 1 0;
